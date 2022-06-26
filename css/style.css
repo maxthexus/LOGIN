@@ -212,3 +212,41 @@ footer strong:hover{
     }
 
 }
+
+@media only screen and  (max-width:680px){
+
+    body{
+        background-repeat: no-repeat;
+        ba
+    }
+
+    div#container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "main"
+        "footer" ;
+        }
+
+    header{
+        display: none;
+    }
+
+    aside{
+        display: none;
+    }
+
+    footer{
+        height: 15vh;
+    }
+
+    div.form{
+        background-color: #3767a6df;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0%;
+        
+
+
+
+}
