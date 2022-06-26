@@ -232,12 +232,16 @@ footer strong:hover{
         display: none;
     }
 
+    main{
+        height: 90vh;
+    }
+
     aside{
         display: none;
     }
 
     footer{
-        height: 15vh;
+        height: 10vh;
     }
 
     div.form{
