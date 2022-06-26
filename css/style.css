@@ -190,3 +190,25 @@ footer strong:hover{
 	background: #ffffff;
 
 }
+
+@media only screen and  (max-width:1260px){
+
+    body{
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    div#container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer" ;
+        }
+    
+    aside{
+        display: none;
+    }
+
+}
